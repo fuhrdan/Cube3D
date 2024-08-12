@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kL4zZqI0JK0=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\ksfuh\\Cube3D\\Cube3D.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ksfuh\\.nuget\\packages\\htmlagilitypack\\1.11.62\\htmlagilitypack.1.11.62.nupkg.sha512"
+  ],
+  "logs": []
+}

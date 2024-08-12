@@ -1,0 +1,19 @@
+﻿<Window x:Class="Cube3D.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="3D Cube" Height="450" Width="800"
+        KeyDown="Window_KeyDown">
+    <Grid>
+        <Viewport3D x:Name="viewport">
+            <ModelVisual3D x:Name="modelVisual">
+                <ModelVisual3D.Content>
+                    <Model3DGroup x:Name="cubeModel">
+                        <!-- Add the cube faces here -->
+                    </Model3DGroup>
+                </ModelVisual3D.Content>
+            </ModelVisual3D>
+            <AmbientLight Color="White"/>
+            <DirectionalLight Color="Gray" Direction="-1,-1,-1"/>
+        </Viewport3D>
+    </Grid>
+</Window>
